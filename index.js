@@ -61,3 +61,11 @@ app.post('/api/payments', async (req,res) => {
 
 
 app.listen(3000);
+
+// Postman API post request body JSON :
+
+// {
+//   "email": "youssef.ahmed10computet@gmail.com",
+//   "text": "This is a sample text.",
+//   "amount": 100
+// }

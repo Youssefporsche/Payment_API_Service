@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# Node modules
+/node_modules/
+
+# Environment variable files
+.env
+.env.*
+
+
+# next.js
+/.next/
+
+
+# production
+/build
+
+
+
+# local env files
+.env*.local
+/.env
+
+# vercel
+.vercel
+

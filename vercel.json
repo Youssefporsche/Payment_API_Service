@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "index.js"
+      }
+    ],
+    "env": {
+      "STRIPE_SECRET_KEY": "sk_test_51MhhCSAtIBRAJZADMwtZgpereJzjB0857qwzfQ5ptniho9K8QmwMtkhgfjkKMloWIMAHntwKWicUMBlKUA83pGhY000KsRFb25"
+    }
+  }
+  

@@ -23,5 +23,5 @@
 /.env
 
 # vercel
-.vercel
+/.vercel
 

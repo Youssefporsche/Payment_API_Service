@@ -22,6 +22,6 @@
 .env*.local
 /.env
 
-# vercel
-/.vercel
+# Vercel configuration
+vercel.json
 

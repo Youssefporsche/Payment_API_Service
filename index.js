@@ -41,7 +41,7 @@ app.post('/api/payments', async (req,res) => {
       description: 'Rabbit Mart',
     });
  
-    res.header("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, Authorization");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With, Content-Type");
 
 
     return res.status(200).json({
